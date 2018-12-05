@@ -1,0 +1,30 @@
+.todoElement {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: 15% 40% 15% 40%;
+  background-color: rgb(204, 181, 153);
+  margin-top: 15px;
+  div {
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+  }
+}
+.todoInfo {
+  margin-top: 15px;
+  span {
+    margin-top: 10px;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    &.todoNumber {
+      color: blue;
+    }
+    &.doneTodoNumber {
+      color: green;
+    }
+    &.undoneTodoNumber {
+      color: red;
+    }
+  }
+}
+

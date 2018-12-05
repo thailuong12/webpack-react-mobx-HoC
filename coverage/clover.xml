@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1543906773478" clover="3.2.0">
+  <project timestamp="1543906773478" name="All files">
+    <metrics statements="93" coveredstatements="52" conditionals="15" coveredconditionals="5" methods="61" coveredmethods="34" elements="169" coveredelements="91" complexity="0" loc="93" ncloc="93" packages="11" files="22" classes="22">
+      <package name="src">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="D:\testProjects\todoList\src\index.js">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.apis">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <file name="TodoApis.js" path="D:\testProjects\todoList\src\apis\TodoApis.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="App.js" path="D:\testProjects\todoList\src\components\App.js">
+          <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.AddTodo">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="AddTodo.js" path="D:\testProjects\todoList\src\components\AddTodo\AddTodo.js">
+          <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+        </file>
+        <file name="index.js" path="D:\testProjects\todoList\src\components\AddTodo\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.components.AddTodo.Hoc">
+        <metrics statements="22" coveredstatements="11" conditionals="6" coveredconditionals="1" methods="11" coveredmethods="2"/>
+        <file name="WithState.js" path="D:\testProjects\todoList\src\components\AddTodo\Hoc\WithState.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+        </file>
+        <file name="WithSubmitTodo.js" path="D:\testProjects\todoList\src\components\AddTodo\Hoc\WithSubmitTodo.js">
+          <metrics statements="7" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+        </file>
+        <file name="WithTodoNameError.js" path="D:\testProjects\todoList\src\components\AddTodo\Hoc\WithTodoNameError.js">
+          <metrics statements="10" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="2" type="stmt"/>
+        </file>
+        <file name="index.js" path="D:\testProjects\todoList\src\components\AddTodo\Hoc\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.components.TodoList">
+        <metrics statements="6" coveredstatements="2" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="1"/>
+        <file name="TodoList.js" path="D:\testProjects\todoList\src\components\TodoList\TodoList.js">
+          <metrics statements="3" coveredstatements="2" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="48" count="3" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+        </file>
+        <file name="demo.js" path="D:\testProjects\todoList\src\components\TodoList\demo.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="D:\testProjects\todoList\src\components\TodoList\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.components.TodoList.Hoc">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="D:\testProjects\todoList\src\components\TodoList\Hoc\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="withLifecycle.js" path="D:\testProjects\todoList\src\components\TodoList\Hoc\withLifecycle.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+        </file>
+        <file name="withProps.js" path="D:\testProjects\todoList\src\components\TodoList\Hoc\withProps.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.TodoList.TodoElement">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="TodoElement.js" path="D:\testProjects\todoList\src\components\TodoList\TodoElement\TodoElement.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="5" type="stmt"/>
+        </file>
+        <file name="index.js" path="D:\testProjects\todoList\src\components\TodoList\TodoElement\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.components.TodoList.TodoElement.Hoc">
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <file name="index.js" path="D:\testProjects\todoList\src\components\TodoList\TodoElement\Hoc\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="withHandler.js" path="D:\testProjects\todoList\src\components\TodoList\TodoElement\Hoc\withHandler.js">
+          <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.http">
+        <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="18"/>
+        <file name="RestClient.js" path="D:\testProjects\todoList\src\http\RestClient.js">
+          <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="18"/>
+          <line num="6" count="7" type="stmt"/>
+          <line num="7" count="7" type="stmt"/>
+          <line num="11" count="7" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="30" count="4" type="stmt"/>
+          <line num="31" count="4" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+        </file>
+        <file name="index.js" path="D:\testProjects\todoList\src\http\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.stores">
+        <metrics statements="16" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="16" coveredmethods="6"/>
+        <file name="TodoStore.js" path="D:\testProjects\todoList\src\stores\TodoStore.js">
+          <metrics statements="16" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="16" coveredmethods="6"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="24" count="4" type="stmt"/>
+          <line num="27" count="4" type="stmt"/>
+          <line num="30" count="4" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="39" count="3" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="62" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
